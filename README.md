@@ -8,12 +8,13 @@ Usage:
 
 2. From Python Interpreter:
 	* First, go to python interpreter:
+
 		`python`
 
 	* Second, type them:
-		``import sys
-		import subprocess
+		`import sys`
+		`import subprocess`
 
-		subprocess.call([sys.executable, 'telnet.py', 'userid_1', ('userid_2'), ..., 'password'])``
+		`subprocess.call([sys.executable, 'telnet.py', 'userid_1', ('userid_2'), ..., 'password'])`
 
 Every userid's password should be same.
